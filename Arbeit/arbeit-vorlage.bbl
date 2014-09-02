@@ -1,0 +1,91 @@
+\begin{thebibliography}{DBGJ13}
+
+\bibitem[cas14]{website:castAR}
+castAR.
+\newblock {castAR}, Juli 2014.
+\newblock \url{http://technicalillusions.com/}.
+
+\bibitem[DBGJ13]{doerner13}
+Ralf Dörner, Wolfgang Broll, Paul Grimm, and Bernhard Jung.
+\newblock {\em Virtual und Augmented Reality}.
+\newblock Springer-Verlag Berlin, Heidelberg, 2013.
+
+\bibitem[Eps14]{website:epson}
+Epson.
+\newblock {Moverio} {BT-200} {Product} {Page}, Juli 2014.
+\newblock \url{http://www.epson.de/moverio}.
+
+\bibitem[Hai12]{website:terrain}
+Eric Haines.
+\newblock {Object2Terrainl}, 2012.
+\newblock \url{http://wiki.unity3d.com/index.php?title=Object2Terrain}.
+
+\bibitem[Hea14]{website:shoes}
+Chris Heathcote.
+\newblock {Shoes that see: Le Chal}, 2014.
+\newblock \url{http://postscapes.com/shoes-that-see-le-chal}.
+
+\bibitem[KM08]{website:ptam}
+Georg Klein and David Murray.
+\newblock {Parallel Tracking and Mapping on a Camera Phone}, 2008.
+\newblock
+  \url{http://www.robots.ox.ac.uk/~gk/publications/KleinMurray2009ISMAR.pdf}.
+
+\bibitem[KM09]{website:multimaps}
+Georg Klein and David Murray.
+\newblock {Video-rate Localization in Multiple Maps for Wearable Augmented
+  Reality}, 2009.
+\newblock
+  \url{http://www.robots.ox.ac.uk/~bob/publications/castle_etal_iswc2008/castle_etal_iswc2008.pdf}.
+
+\bibitem[Lan12]{website:welding}
+Ben Lang.
+\newblock {Augmented Reality Welding Mask Provides 100 Million to 1 Contrast
+  Ratio in 3D for Precision Welding}, 2012.
+\newblock \url{http://www.roadtovr.com/augmented-reality-welding-mask/}.
+
+\bibitem[Mü12]{website:lifeclipper}
+Florian Müller.
+\newblock {Remembering in the Metaverse: Preservation, Evaluation, and
+  Perception}, 2012.
+\newblock \url{http://edoc.unibas.ch/16452/1/diss_mueller_pdfa_final.pdf}.
+
+\bibitem[Ocu14a]{website:oculus1}
+Oculus.
+\newblock {Oculus} {Rift} {DK1}, Februar 2014.
+\newblock \url{http://www.oculusvr.com/}.
+
+\bibitem[Ocu14b]{website:oculus2}
+Oculus.
+\newblock {Oculus} {Rift} {DK2}, Juli 2014.
+\newblock \url{http://www.oculusvr.com/}.
+
+\bibitem[Sta14]{website:tank}
+Michelle Star.
+\newblock {Norwegian army trials Oculus Rift to drive tanks}, 2014.
+\newblock
+  \url{http://www.cnet.com/news/norwegian-army-trials-oculus-rift-to-drive-tanks/}.
+
+\bibitem[Ste13]{website:arrift}
+William Steptoe.
+\newblock {AR Rift}, 2013.
+\newblock \url{http://willsteptoe.com/post/66968953089/ar-rift-part-1}.
+
+\bibitem[SW97]{slaterwilbur97}
+Mel Slater and Sylvia Wilbur.
+\newblock {\em A framework for immersive virtual environements(FIVE):
+  specultion on the role of presence in virtual environments}.
+\newblock 1997.
+\newblock \url{http://publicationslist.org/data/melslater/ref-232/pres5.pdf}.
+
+\bibitem[Vuz14]{website:vuzix}
+Vuzix.
+\newblock {Wrap} {1200DX AR} {Product} {Page}, Juli 2014.
+\newblock \url{http://store.vuzix.co.uk/euro/acatalog/Wrap_1200DX_AR.html}.
+
+\bibitem[Wik14]{website:dof}
+Wiki.
+\newblock {Six Degrees of Freedom}, 2014.
+\newblock \url{http://en.wikipedia.org/wiki/Six_degrees_of_freedom}.
+
+\end{thebibliography}

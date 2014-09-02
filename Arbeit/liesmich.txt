@@ -1,0 +1,11 @@
+Vorlagen von "Bachelorarbeit und Masterarbeit mit LaTeX schreiben" 
+
+Seit 2006 stehen diese Vorlagen und die Hinweise von http://www.bretschneidernet.de/tips/thesislatex.html bereit und sind schone viele tausend Male heruntergeladen worden.
+
+Ich habe die tex-Dateien in eine Präambel mit den Einstellungen und der eigentlichen tex-Datei mit dem Inhalt aufgeteilt. Somit sind Layout und Inhalt voneinenader getrennt.
+
+Dr. Martin Bretschneider im Dezember 2013
+
+
+Änderungen:
+22.03.2014: URL in Bibliographie
