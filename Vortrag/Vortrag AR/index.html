@@ -25,7 +25,6 @@
 
 		<link rel="stylesheet" href="css/reveal.min.css">
 		<link rel="stylesheet" href="css/theme/default.css" id="theme">
-		<link rel="stylesheet" href="css/print/pdf.css">
 
 		<!-- For syntax highlighting -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -185,6 +184,7 @@
 					
 					<section data-background-color="rgba( 12, 25, 77, 0.6)">
 						<h2>Google SketchUp</h2>
+						<video controls width="640" height="360" src="SketchUp.mp4"></video>
 					</section>	
 					
 					<section data-background-color="rgba( 12, 25, 77, 0.6)">
@@ -292,7 +292,56 @@ public class Main {
 					
 					<section data-background-color="rgba( 12, 25, 77, 0.6)">
 						<h2>Unity</h2>
+						<video controls width="640" height="360" src="Unity.mp4"></video>
 					</section>
+					
+					<section data-background-color="rgba( 12, 25, 77, 0.6)">
+						<h2>Flugmodus - In der Schwebe bleiben</h2>
+						<pre><code class="javascript" data-trim>
+//we can't jump in the air
+if (grounded)
+		velocity.y = Mathf.Min(0, velocity.y) - movement.gravity * Time.deltaTime;
+	else {
+		velocity.y = movement.velocity.y - movement.gravity * Time.deltaTime;
+		
+		// When jumping up we don't apply gravity when the user is holding the jump button.
+		if (jumping.jumping && jumping.holdingJumpButton) {
+			// Fly upwards until we have the max height
+			if (Time.time < jumping.lastStartTime + jumping.extraHeight / CalculateJumpVerticalSpeed(jumping.baseHeight)) {
+				// Negate the gravity we just applied, except we push in jumpDir rather than jump upwards.
+				velocity += jumping.jumpDir * movement.gravity * Time.deltaTime;
+			}else{
+				//disable gravity as long as the jump button is hold
+				velocity.y = 0.0;
+			}
+		}
+		
+		// Make sure we don't fall any faster than maxFallSpeed. This gives our character a terminal velocity.
+		velocity.y = Mathf.Max (velocity.y, -movement.maxFallSpeed);
+	}
+						</code></pre>
+					</section>
+					
+					<section data-background-color="rgba( 12, 25, 77, 0.6)">
+						<h2>Flugmodus - Erhöhte Geschwindigkeit</h2>
+						<pre><code class="javascript" data-trim>
+private function GetDesiredHorizontalVelocity () {
+	// Find desired velocity
+	var desiredLocalDirection : Vector3 = tr.InverseTransformDirection(inputMoveDirection);
+	var maxSpeed : float = MaxSpeedInDirection(desiredLocalDirection);
+	if (grounded) {
+		// Modify max speed on slopes based on slope speed multiplier curve
+		var movementSlopeAngle = Mathf.Asin(movement.velocity.normalized.y)  * Mathf.Rad2Deg;
+		maxSpeed *= movement.slopeSpeedMultiplier.Evaluate(movementSlopeAngle);
+	}else{
+		// Modify max speed in the air
+		maxSpeed *= 15.0;
+	}
+	return tr.TransformDirection(desiredLocalDirection * maxSpeed);
+}
+						</code></pre>
+					</section>
+					
 					
 				</section>
 
