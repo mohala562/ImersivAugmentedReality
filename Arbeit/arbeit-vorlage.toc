@@ -17,15 +17,15 @@
 \contentsline {section}{\numberline {4.3}Weitere Ausgabeger\IeC {\"a}te f\IeC {\"u}r VR/AR}{21}{section.4.3}
 \contentsline {section}{\numberline {4.4}Positional Tracking}{22}{section.4.4}
 \contentsline {chapter}{\numberline {5}Virtual and Augmented Reality Town}{27}{chapter.5}
-\contentsline {section}{\numberline {5.1}Einf\IeC {\"u}hrung}{27}{section.5.1}
+\contentsline {section}{\numberline {5.1}Motivation}{27}{section.5.1}
 \contentsline {section}{\numberline {5.2}Kreieren des virtuellen Terrains}{28}{section.5.2}
-\contentsline {section}{\numberline {5.3}Hinzuf"ugen des Spielerobjekts}{31}{section.5.3}
-\contentsline {section}{\numberline {5.4}AR Town}{31}{section.5.4}
-\contentsline {chapter}{\numberline {6}Einblicke in Programmiertechniken}{33}{chapter.6}
-\contentsline {section}{\numberline {6.1}Kurzer \IeC {\"U}berblick in Unity}{33}{section.6.1}
-\contentsline {section}{\numberline {6.2}Use-Case: Hinzuf\IeC {\"u}gen einer Br\IeC {\"u}cke}{34}{section.6.2}
-\contentsline {chapter}{\numberline {7}Schlusswort}{37}{chapter.7}
-\contentsline {chapter}{\numberline {8}Anhang}{39}{chapter.8}
-\contentsline {section}{\numberline {8.1}TileGrabber}{39}{section.8.1}
-\contentsline {section}{\numberline {8.2}Flugmodus}{43}{section.8.2}
-\contentsline {chapter}{Literaturverzeichnis}{45}{chapter*.13}
+\contentsline {section}{\numberline {5.3}Hinzuf\IeC {\"u}gen des Beobachterobjekts}{31}{section.5.3}
+\contentsline {section}{\numberline {5.4}AR Town}{32}{section.5.4}
+\contentsline {chapter}{\numberline {6}Einblicke in Programmiertechniken}{35}{chapter.6}
+\contentsline {section}{\numberline {6.1}Einf\IeC {\"u}hrung in Unity}{35}{section.6.1}
+\contentsline {section}{\numberline {6.2}Use-Case: Hinzuf\IeC {\"u}gen einer Br\IeC {\"u}cke}{37}{section.6.2}
+\contentsline {chapter}{\numberline {7}Schlusswort}{39}{chapter.7}
+\contentsline {chapter}{\numberline {8}Anhang}{41}{chapter.8}
+\contentsline {section}{\numberline {8.1}TileGrabber}{41}{section.8.1}
+\contentsline {section}{\numberline {8.2}Flugmodus}{45}{section.8.2}
+\contentsline {chapter}{Literaturverzeichnis}{47}{chapter*.14}
