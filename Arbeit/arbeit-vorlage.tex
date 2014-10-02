@@ -88,7 +88,7 @@ Ziel von VR ist es somit 3D-Inhalte des Computers nicht über den zweidimensiona
 	\item zudem sollen die Ausgabegeräte eine ''lebendige'' Darstellung bieten, z.B. durch hohe Auflösung und Qualität der Farbdarstellung
 \end{enumerate}
 Somit stellen geschlossene HMDs, welche das Sichtfeld des Nutzers umschliessen und es ihm nur noch ermöglichen die virtuellen Inhalte zu sehen, höchst immersive Displays dar.\cite[S.~12~ff.]{doerner13}\\[6pt]
-\vspace{-30pt}
+
 \section{Augmented Reality}
 In manchen Bereichen ist es nicht nötig oder erwünscht eine komplette virtuelle Welt zu betrachten, sondern nur ein virtuelles Objekt in die reale Welt einzufügen. Mithilfe von Augmented Reality ist dies möglich. Eine passende Definition findet sich in \cite{doerner13}.
 \begin{quote}
@@ -152,7 +152,7 @@ Resultat dieser Aufnahme- und Bearbeitungsart ist, dass beim Schweissen lediglic
 	\vspace{-10pt}
 \end{wrapfigure}
 In Norwegen wird beim Militär zur Zeit ein AR System für Panzerfahrer mithilfe des \textit{Oculus Rift} getestet. Das System besteht aus vier Kameras, welche mit einem Sichtfeld (auch FOV, field of view, genannt) von 185\textdegree eine 360\textdegree-Sicht um den Panzer herum ermöglichen. Diese Bilder werden anschliessend genutzt um der Besatzung des Panzers durch den \textit{Oculus} eine freie Sicht auf das geschehen Ausserhalb zu ermöglichen. Da jedoch Ausrüstung, welche ausserhalb des Panzers angebracht wird, sich in einer Gefahrenzone befindet (entweder durch Direktfeuer oder Schrapnell) kann das System noch nicht vollständig integriert werden.\cite{website:tank}
-
+\vspace{-12pt}
 \section{AR für Blinde}\label{s.shoes}
 \begin{wrapfigure}{r}{0.5\textwidth}
 	\vspace{-65pt}
@@ -269,7 +269,7 @@ Die wichtigste Kenngrösse von HMDs ist ihr Field of View. Dieser beschreibt den
 	\label{fig.dof}
 	\vspace{-10pt}
 \end{wrapfigure}
- In der Regel ist ein 3-DOF Sensor, welcher aus einem Gyroskop (Kreiselinstrument) oder Accelerometer (Beschleunigungssensor) besteht, zur Orientierungsbestimmung im HMD eingebaut. DOF (Degress of Freedom) bedeutet Freiheitsgrade. In diesem Fall beschreibt es die Anzahl Orientierungen, welche der Sensor aufnehmen kann. Ein 3-DOF Sensor kann drei unterschiedliche Orientierungsänderungen erkennen. Ist ein Gyroskop verbaut, wie in HMDs üblich, können die in Abbildung \ref{fig.dof} als Roll (Rollen), Pitch (Neigen) und Yaw (Schwenken) bezeichneten Bewegungen erkannt werden. Rollen und Neigen können mithilfe der auf die im Gyroskop eingebauten Kreisel einwirkenden Gravitationskräfte zu Beginn bestimmt werden. Die Auslenkung in der Schwenkbewegung wird im Initialstadium gemessen und so angenommen, dass sie dem Blick nach vorne entspricht. Anschliessend ist es möglich die Änderung der Blickrichtung des Nutzers zu erkennen und an die VR/AR-Applikation weiterzuleiten um die digitale Kamera neu auszurichten. Möchte man Bewegung im Raum, wenn der Nutzer zum Beispiel einen Schritt nach vorne macht, erkennen, müssen sowohl Gyroskop als auch Accelerometer vorhanden sein. Durch kombinieren der gewonnen Daten kann auf die Richtung und die zurückgelegte Distanz geschlossen werden. In diesem Fall spricht man von 6-DOF Sensoren.\cite{website:dof}
+ In der Regel ist ein 3-DOF Sensor, welcher aus einem Gyroskop (Kreiselinstrument) oder Accelerometer (Beschleunigungssensor) besteht, zur Orientierungsbestimmung im HMD eingebaut. DOF (Degress of Freedom) bedeutet Freiheitsgrade. In diesem Fall beschreibt es die Anzahl Orientierungen, welche der Sensor aufnehmen kann. Ein 3-DOF Sensor kann drei unterschiedliche Orientierungsänderungen erkennen. Ist ein Gyroskop verbaut, wie in HMDs üblich, können die in Abbildung \ref{fig.dof} als Roll (Rollen), Pitch (Neigen) und Yaw (Schwenken) bezeichneten Bewegungen erkannt werden. Diese Begriffe sind auch in der Aviatik zur Beschreibung von Flugbewegungen gebräuchlich. Rollen und Neigen können mithilfe der auf die im Gyroskop eingebauten Kreisel einwirkenden Gravitationskräfte zu Beginn bestimmt werden. Die Auslenkung in der Schwenkbewegung wird im Initialstadium gemessen und so angenommen, dass sie dem Blick nach vorne entspricht. Anschliessend ist es möglich die Änderung der Blickrichtung des Nutzers zu erkennen und an die VR/AR-Applikation weiterzuleiten um die digitale Kamera neu auszurichten. Möchte man Bewegung im Raum, wenn der Nutzer zum Beispiel einen Schritt nach vorne macht, erkennen, müssen sowohl Gyroskop als auch Accelerometer vorhanden sein. Durch kombinieren der gewonnen Daten kann auf die Richtung und die zurückgelegte Distanz geschlossen werden. In diesem Fall spricht man von 6-DOF Sensoren.\cite{website:dof}
 \subsection*{Vuzix Wrap 1200DXAR}
 \begin{wrapfigure}{r}{0.5\textwidth}
 	\vspace{-20pt}
@@ -324,7 +324,7 @@ Die nächste Version, unter dem Projektnamen ''Crystal Cove'' bekannt, verfügt 
 \newpage
 \section{Weitere Ausgabegeräte für VR/AR}\label{s.otherdevices}
 \subsection*{Akustische Ausgabegeräte}
-Wie bereits in Kapitel \ref{c.wasist} beschrieben müssen bei einer möglichst immersiven VR/AR Erfahrung mehrere Sinne angesprochen werden. Zusätzlich zum visuellen Sinn ist es relativ einfach Geräusche zu generieren. In VR Umgebungen lassen Umgebungsgeräusche den Anwender die Welt realer erscheinen. Das Fehlen auditiver Feedbacks, z.B. beim Fallenlassen einer Kiste in der virtuellen Welt, würde zu einem Bruch in der angeblichen Realität führen.\\[6pt]
+Wie bereits in Kapitel \ref{c.wasist} beschrieben müssen bei einer möglichst immersiven VR/AR Erfahrung mehrere Sinne angesprochen werden. Zusätzlich zum visuellen Sinn ist es ebenfalls möglich Geräusche zu generieren. In VR Umgebungen lassen Umgebungsgeräusche den Anwender die Welt realer erscheinen. Das Fehlen auditiver Feedbacks, z.B. beim Fallenlassen einer Kiste in der virtuellen Welt, würde zu einem Bruch in der angeblichen Realität führen.\\[6pt]
 Mithilfe von Mehrkanalsystemen kann ein räumlicher Effekt entstehen (wie man es aus Dolby Surround Sound kennt). Eine Weiterentwicklung dieses Systems ist die Wellenfeldsynthese. Dabei wird das Wellenfeld realer Ereignisse aufgenommen und kann anschliessend als synthetisches Wellenfeld über mehrere Lautsprecher ausgegeben werden. Es ist somit möglich verschiedene Schallquellen an beliebigen Positionen in einem begrenzten Gebiet zu erzeugen.\cite[S.~154]{doerner13}
 \vspace{-10pt}
 \subsection*{Haptische Ausgabegeräte}
@@ -348,7 +348,7 @@ Das markenbasierte Verfahren des optischen Trackings verwendet zur Vermeidung de
 	\vspace{-12pt}
 \end{wrapfigure}
 Die grösse der Marker ist entscheidend, da sie entweder nicht komplett erkannt werden können oder bei zu kleinen Marken die Anzahl der Markerpixel zu gering ist und es deshalb zu Fehlern in der Mustererkennung kommt. Durch einen zu flachen Betrachtungswinkel, können Transformationswerte stark schwanken und es kommt ebenfalls zu einer fehlerhaften Mustererkennung. Der grösste Nachteil solcher Marken ist der, dass sie direkt an dem zu augmentierenden Objekt angebracht werden müssen. Manchmal ist dies nicht möglich, sie würden vom Benutzer selbst verdeckt, wenn er das Objekt in die Hand nehmen müsste oder störend auffallen, da die Marker visuell nicht sehr ansprechend sind.\cite[S.~256~ff.]{doerner13}\\[6pt]
-
+\vspace{-20pt}
 \begin{wrapfigure}{l}{0.35\textwidth}
 	\vspace{-30pt}
 	\begin{center}
@@ -359,6 +359,7 @@ Die grösse der Marker ist entscheidend, da sie entweder nicht komplett erkannt 
 	\caption{Tracking eines Targets mit mehreren Kameras}\label{target}
 	\vspace{-12pt}
 \end{wrapfigure}
+
 Ein Target besteht aus mehreren Einzelmarken, von welchen die relative Position zueinander bekannt ist. Durch verschiedene Bauweisen von mehreren Targets kann das System diverse Objekte differenzieren. Wird mit solchen Targets gearbeitet, müssen mindestens zwei Kameras, je nach Grösse des zu überwachenden Gebiets auch mehr, benutzt werden. Die Bilddaten der einzelnen Kamera liefern bei einer Vorverarbeitung eine genaue Position in der zweidimensionalen Ebene. Mithilfe der zweiten Kamera ist es anschliessend möglich die genaue Position im Raum zu bestimmen.\cite[S.~106~ff.]{doerner13}
 \newpage
 \subsection*{Parallel Tracking and Mapping}
@@ -377,16 +378,17 @@ PTAM verwendet im Gegensatz zu üblichen markerlosen Trackingverfahren eine geri
 
 \subsection*{Differential Global Positioning System und Satellite Based Augmentation System}
 Für Outdoor-AR-Anwendung bieten sich am ehesten DGPS und SBAS zur Positionsbestimmung an. Bei GPS können Abweichungen von 10 Metern oder mehr auftreten. Besonders in Wäldern oder Häuserschluchten kann die Position mit GPS nicht mehr genau bestimmt werden. Bei DGPS wird mithilfe eines lokalen Referenzempfängers ein Korrektursignal berechnet. Nachdem das Signal über Funkt oder Internet an den GPS-Empfänger gesendet und mit dessen Signal verrechnet wurde, ist eine Genauigkeit von bis zu wenigen Zentimetern möglich.\\[6pt]
+\newpage
 SBAS nutzt mehrere geostationäre Satelliten als Refernzsystem und ist deshalb nur in bestimmten Gebieten verfügbar (zurzeit Europa, Nordamerika und Japan). Dieses System verfügt über eine Abweichung von ca. einem Meter, kann jedoch bei eingeschränkter Sicht nach Süden fehleranfällig sein, da die Umlaufbahn geostationärer Satelliten über dem Äquator liegt. Bei der Augmentierung von Gebäuden und Gegenständen im Freien reicht die Genauigkeit jedoch aus, falls sich der Betrachter nicht allzu nah am Objekt befindet.\cite[S.~253~ff.]{doerner13}
 
 \chapter{Virtual and Augmented Reality Town}\label{c.towndemo}
 \vspace{-20pt}
 \section{Motivation}\label{s.vrintro}
-Ziel des Pilotprojekts war es herauszufinden, welche Möglichkeiten es mit dem \textit{Oculus} und der dazugehörigen Engine \textit{Unity} gibt. Neben dem Erstellen einer einfachen Simulation, sollte auch die Steigerung der Immersion einen grossen Stellenwert innerhalb des Projekts einnehmen. Dazu wurde ein VR Prototyp erstellt, welcher es dem Nutzer ermöglicht, sich im Stadtquartier St. Johann virtuell zu bewegen. Mithilfe des ''Flugmodus'' können Gebäude aus unterschiedlichsten Perspektiven betrachtet oder, dank der erhöhten Bewegungsgeschwindigkeit in der Luft, in kurzer Zeit grössere Distanzen zurückgelegt werden. Zur Steigerung der Immersion wurden ein möglichst realistischer Himmel und Umgebungsgeräusche, wie Verkehr in der Nähe von Strassen und Vogelgesang bei Bäumen, implementiert.\\[6pt]
+Ziel des Pilotprojekts war es herauszufinden, welche technischen Möglichkeiten es mit dem \textit{Oculus} und der dazugehörigen Engine \textit{Unity} gibt und welche Herausforderungen bei der Erstellung grosser virtueller Welten mit hohen Detail, in diesem Fall das St. Johann Gebiet mit einer Präzsision von 0.01 Meter Abweichung im 3D-Modell und einer grösse von 160 Hektare, auftreten. Neben dem Erstellen einer einfachen Simulation, sollte auch die Steigerung der Immersion einen grossen Stellenwert innerhalb des Projekts einnehmen. Dazu wurde ein VR Prototyp erstellt, welcher es dem Nutzer ermöglicht, sich im Stadtquartier St. Johann virtuell zu bewegen. Mithilfe des ''Flugmodus'' können Gebäude aus unterschiedlichsten Perspektiven betrachtet oder, dank der erhöhten Bewegungsgeschwindigkeit in der Luft, in kurzer Zeit grössere Distanzen zurückgelegt werden. Zur Steigerung der Immersion wurden ein möglichst realistischer Himmel und Umgebungsgeräusche, wie Verkehr in der Nähe von Strassen und Vogelgesang bei Bäumen, implementiert.\\[6pt]
 Für die Implementierung konnte ein 3D Modell des Gebietes, welches von der Stadt Basel zur Verfügung gestellt wurde, verwendet werden. Mithilfe der \textit{Unity} Engine, welche ein offizielles SDK für den \textit{Oculus Rift} besitzt, konnte ein VR Prototyp realisiert werden. Neben der erwähnten Engine wurde \textit{Google Sketchup} zur Anpassung des Stadtmodells und eine in \textit{Eclipse} geschrieben Java-Applikation zur Erstellung der Bodentextur verwendet.
 \newpage
-\section{Kreieren des virtuellen Terrains}\label{s.terrain}
-Mithilfe von \textit{Google SketchUp} ist es möglich 3D-Modelle von Gebäuden zu kreieren. Zudem kann bei der Abbildung realer Gebäude der Geostandort angegeben werden. Dadurch wird ein Satellitenbild aus \textit{Google Maps} in das Modell eingefügt, mit welchem es möglich ist, die erstellten Gebäude korrekt zu skalieren.
+\section{Kalibrieren des virtuellen Terrains}\label{s.terrain}
+Mithilfe von \textit{Google SketchUp} ist es möglich 3D-Modelle von Gebäuden zu kreieren oder bereits vorhandene Modelle zu importieren und ihre Grösse zu ändern. Da das Stadtmodell bereits vorhanden war, mussten keine Gebäude erstellt werden und nach dem Import kann mithilfe der Geostandort Funktion in \textit{SketchUp} ein Satellitenbild von Google importiert werden. Damit können die Gebäude korrekt kalibriert werden und liegen somit in \textit{Unity} in der richtigen Grösse vor.
 
 \begin{figure}[htp]%
 	\centering	
@@ -420,8 +422,8 @@ Anschliessend wird das so korrigierte Modell als eine für \textit{Unity} kompat
 \end{figure}
 
 Damit auf terraineigene Funktionen wie das Hinzufügen von Pflanzen und Bäumen sowie die Verwendung einer Karte als Textur zugegriffen werden kann, muss die Fläche, welche das Terrain beschreibt, mithilfe des Skripts \textit{Object2Terrain}\cite{website:terrain} in ein spezielles \textit{Terrainobjekt} umgewandelt werden.\\[6pt]
-Die zuvor erwähnte Karte, welche den Untergrund der virtuellen Welt darstellen wird, kann mit einer innerhalb dieser Arbeit erstellten Java-Applikation automatisch zusammengestellt werden. Die Anwendung lädt kleinere Kartenausschnitte im Massstab 1:500 mit hoher Auflösung aus dem \textit{Geoviewer} der Stadt Basel und kombiniert diese zu einer grossen zusammenhängenden Karte. Bei den kleineren Kartenausschnitten handelt es sich um Quadrate (sogenannte Tiles) mit einer Abmessung von 256 Pixel Kantenlänge. Sie stellen ein Gebiet von ca. 12 Are dar. Das Resultat ist eine quadratische Karte mit einer Kantenlänge von 9216 Pixeln und ein Gebiet von etwa 160 Hektare umfasst. Der Sourcecode sowie die erstellte Karte befindet sich im Anhang unter \ref{s.tilegrabber}.\\[6pt]
-Um mehr Leben in die virtuelle Welt zu bringen und somit die Immersion zu steigern können weitere Objekte eingefügt werden. Da auf der Karte Details wie die Position einzelner Bäume vermerkt sind, können mit dem in \textit{Unity} integrierten Tool unterschiedliche Bäume manuell positioniert werden. Zudem ist es möglich Verkehrsgeräusche in der Nähe von Strassen einzufügen. In \textit{Unity} stehen dazu eigene Tonquellenobjekte zur Verfügung, welche die Lautstärke bei der Entfernung des Nutzers von der Tonquelle möglichst realistisch reduzieren.\\[6pt]
+Für die Terraintextur kann eine hochauflössende Karte des Gebiets verwendet werden. Diese kann mit einer innerhalb dieser Arbeit erstellten Java-Applikation automatisch zusammengestellt werden. Die Anwendung lädt kleinere Kartenausschnitte im Massstab 1:500 mit hoher Auflösung aus dem \textit{Geoviewer} der Stadt Basel und kombiniert diese zu einer grossen zusammenhängenden Karte. Bei den kleineren Kartenausschnitten handelt es sich um Quadrate (sogenannte Tiles) mit einer Abmessung von 256 Pixel Kantenlänge. Sie stellen ein Gebiet von ca. 12 Are dar. Das Resultat ist eine quadratische Karte mit einer Kantenlänge von 9216 Pixeln und ein Gebiet von etwa 160 Hektare umfasst. Der Sourcecode sowie die erstellte Karte befindet sich im Anhang unter \ref{s.tilegrabber}.\\[6pt]
+Die Immersion kann mit dem Einfügen weiterer Objekte gesteigert werden. Da auf der Karte Details wie die Position einzelner Bäume vermerkt sind, können mit dem in \textit{Unity} integrierten Tool unterschiedliche Bäume manuell positioniert werden. Zudem ist es möglich Verkehrsgeräusche in der Nähe von Strassen einzufügen. In \textit{Unity} stehen dazu eigene Tonquellenobjekte zur Verfügung, welche die Lautstärke bei der Entfernung des Nutzers von der Tonquelle möglichst realistisch reduzieren.\\[6pt]
 \vspace{-12pt}
 \begin{wrapfigure}{r}{0.35\textwidth}
 	\vspace{-30pt}
@@ -456,6 +458,7 @@ Um dem Benutzer die Möglichkeit zu geben, sich schnell von Punkt A nach B zu be
 Hier werden die theoretischen Überlegungen, wie man die erstellte VR Anwendung in eine AR Applikation weiterentwickeln kann, ausgeführt. Um dies zu bewerkstelligen müssen einerseits Änderungen an der Hardware, sprich anbringen einer Stereokamera und gegeben falls Sensoren f"ur die Positionsbestimmung, und andererseits der Programmcode umgeschrieben werden.\\[6pt]
 Da es sich beim \textit{Oculus Rift} um einen geschlossenen HMD handelt, müssen Videokameras angebracht werden um aus dem VR System ein Video See-Through-AR System zu erstellen. Bei den Kameras ist darauf zu achten, dass sie mindestens 60 Bilder pro Sekunde aufnehmen, um ein flüssiges Bild garantieren zu können. Ausserdem ist ein möglichst grosser Aufnahmewinkel nötig, da der Oculus selbst über ein relativ breites Sichtfeld verfügt und ansonsten schwarze Ränder entstehen würden.\cite{website:arrift}\\[6pt]
 Zur Positionsbestimmung kommen mehrere Alternativen in Frage (siehe \ref{s.positional}). Da die Applikation mehrheitlich im Freien genutzt wird, bietet sich am ehesten DGPS an. Eine andere Möglichkeit wäre eine Kombination aus dem vorgestellten PTAM, dem Multiple Maps System der selben Arbeitsgruppe\cite{website:multimaps} und GPS. Mithilfe von GPS wird die Position grob bestimmt und anschliessend mithilfe des Multiple Maps System die verschiedenen Featuremaps der Umgebung geladen. Anschliessend kann mithilfe von PTAM die Augmentierung richtig positioniert werden.\\[6pt]
+\newpage
 Im Programmcode müssen dementsprechend Änderung angebracht werden. So muss das gewonnen Doppelbild als steter Hintergrund der Szene verwendet werden. Möchte man dass Bäume, Baugerüste oder andere Gebäude das virtuelle Objekt verdecken können, muss eine Methode gefunden werden, welche die vorhandenen realen Objekte erkennt und das 3D-Modell an den entsprechenden Stellen zuschneidet.
 
 \chapter{Einblicke in Programmiertechniken}\label{c.programing}
@@ -476,10 +479,27 @@ Bei \textit{Unity} handelt es sich um eine Engine, welche zur Computerspielentwi
 \end{figure}
 
  In Abbildung \ref{unityall} wird die Maske von \textit{Unity} gezeigt. Alle Elemente, welche in (a) enthalten sind, sind in die Welt integriert. Erscheint der Name des Objekts grau, ist es deaktiviert (in diesem Fall die Hauptkamera, da der Oculus Rift verwendet wird und somit die OVRCameraController aktiviert sein müssen). Hier ist es auch möglich einzelne Elemente zu einer Gruppe zusammenzufassen. Neben einer besseren Übersicht bietet dies die Möglichkeit Vater-Kind-Beziehungen herzustellen. Bewegt sich nun der ''First Person Controller'' so wird auch der ''OVRCameraController'' in die selbe Richtung bewegt. In (b) sind hingegen die Dateien, welche bereits in \textit{Unity} importiert jedoch noch nicht unbedingt verwendet wurden, angezeigt. Dies sind die sogenannten ''Assets''. Durch klicken der rechten Maustaste in diesem Feld können weitere Elemente importiert werden. Mithilfe einer ''Drag and Drop'' Funktion können Elemente von (b) sowohl in (a) oder gleich in das Vorschaufenster (c) an die richtige Position gezogen werden. In (d) sind weitere Informationen zum ausgewählten Objekt zu finden. Bei Spielerobjekten wäre dies z.B. die Höhe der Figur, seine Laufgeschwindigkeit, die Sprunghöhe und im Falle des \textit{Oculus} auch sein Augenabstand. Das letzte Feld (e) ist lediglich eine Vorschau des ausgewählten Objekts, unter der Voraussetzung, dass es sich dabei um eine Textur oder ein 3D-Modell handelt.\\[6pt]
- Ist das Programm fertiggestellt und bereit kompiliert zu werden, kann über einen Assistenten das Zielsystem gewählt werden und \textit{Unity} gibt anschliessend eine ausführbare Datei aus. Die Anwendung kann neben Windows, Linux und Mac auch für mobile Plattformen wie Android, iOS, Windows Phone und Blackberry 10 oder gar als Webplugin zur Integration in eine Webseite kompiliert werden.
+ Ist das Programm fertiggestellt und bereit kompiliert zu werden, kann über einen Assistenten das Zielsystem gewählt werden und \textit{Unity} gibt anschliessend eine ausführbare Datei aus. Die Anwendung kann neben Windows, Linux und Mac auch für mobile Plattformen wie Android, iOS, Windows Phone und Blackberry 10 oder gar als Webplugin zur Integration in eine Webseite kompiliert werden. Abbildung \ref{UnityArchitektur} zeigt einen Überblick, wie die einzelnen Teile zusammenarbeiten.\\[6pt]
+ \newpage
+ 
 
+ \begin{figure}[ht]
+ 	\vspace{-15pt}
+ 	\begin{center}
+ 		\includegraphics[width=0.9\textwidth]{UnityArchitektur}
+ 	\end{center}
+ 	\vspace{-15pt}
+ 	\caption[Unity Architektur]{Übersicht von Unity}\label{UnityArchitektur}
+ 	\vspace{-12pt}
+ \end{figure} 
+ 
+ 
+ 
+ 
+ 
+\newpage
 \section{Use-Case: Hinzufügen einer Brücke}\label{s.brücke}
-In dem zur Verfügung gestellten 3D-Modell des St. Johann Quartiers hat die Brücke über die Bahngleise in der Nähe des Lothringerplatzes gefehlt. Mithilfe von \textit{SketchUp} können einfach Strukturen relativ schnell als 3D-Modell umgesetzt werden. Durch das Hinzufügen des Geostandorts konnten die Informationen von \textit{Google Maps} genutzt werden um den Verlauf der Brücke realitätsnah nachzubilden. Mithilfe des Zeichentools kann eine Fläche, welche der Form der Brücke entspricht, gezeichnet werden. Anschliessend kann diese Fläche in der Höhe gestreckt und somit zu einem dreidimensionalen Körper transformiert werden. Nach dem Export besitzt die Brücke bereits über die richtige Grösse, da das restliche Stadtmodell wie oben erwähnt auch mit dem Geostandort skaliert wurde. Weitere Anpassungen sind nach dem Import in \textit{Unity} nicht mehr nötig.\\[6pt]
+In dem zur Verfügung gestellten 3D-Modell des St. Johann Quartiers hat die Brücke über die Bahngleise in der Nähe des Lothringerplatzes gefehlt. Durch das Hinzufügen des Geostandorts konnten die Informationen von \textit{Google Maps} genutzt werden um den Verlauf der Brücke realitätsnah nachzubilden. Mithilfe des Zeichentools kann eine Fläche, welche der Form der Brücke entspricht, gezeichnet werden. Anschliessend kann diese Fläche in der Höhe gestreckt und somit zu einem dreidimensionalen Körper transformiert werden. Nach dem Export besitzt die Brücke bereits über die richtige Grösse, da das restliche Stadtmodell wie oben erwähnt auch mit dem Geostandort skaliert wurde. Weitere Anpassungen sind nach dem Import in \textit{Unity} nicht mehr nötig.\\[6pt]
 
 \begin{figure}[ht]
 	\vspace{-20pt}
@@ -492,7 +512,7 @@ In dem zur Verfügung gestellten 3D-Modell des St. Johann Quartiers hat die Brü
 \end{figure}
 
 \newpage
-Der Import in \textit{Unity} erfolgt schnell und einfach per ''Drag and Drop''. Dazu wird das 3D-Modell vorerst in den Assetordner des Projekts geladen und anschliessend von dort in das Vorschaufenster an die richtige Position gezogen. Anschliessend können im Inspector noch Änderungen am Objekt vorgenommen werden, in diesem Fall musste die Brücke um 2° auf der Y-Achse gedreht werden, damit sie mit dem Strassenverlauf übereinstimmt. Zudem wurde ein "Mesh Collider" hinzugefügt, damit der Anwender nicht durch die Brücke hindurch fällt, falls er versucht sie zu überqueren.\\[6pt]
+In \textit{Unity} können sämtliche benötigte Dateien als ''Asset'' importiert werden. Grundlegend unterscheidet man drei Typen von Assets. Animationen und 3D-Modelle, Texturen und Tondateien. Bei den 3D-Formaten utnerstützt \textit{Unity} unter anderem FBX, Collada DAE und OBJ Dateien wie auch Dateiformate, welche von 3D Programmen wie Blender oder Maya erstellt wurden. Nach dem Import in Unity können die Assets aus dem Dateiexplorer in das Scene Preview Fenster an die korrekte Position gezogen werden. Anschliessend können im Inspector noch Änderungen am Objekt vorgenommen werden, in diesem Fall musste die Brücke um 2° auf der Y-Achse gedreht werden, damit sie mit dem Strassenverlauf übereinstimmt. Zudem wurde ein "Mesh Collider" hinzugefügt, damit der Anwender nicht durch die Brücke hindurch fällt, falls er versucht sie zu überqueren.\\[6pt]
  
  \begin{figure}[ht]
  	\vspace{-20pt}
@@ -507,8 +527,8 @@ Der Import in \textit{Unity} erfolgt schnell und einfach per ''Drag and Drop''. 
 \chapter{Schlusswort}\label{c.zusammenfassung}
 \vspace{-20pt}
 Das Schreiben dieser Arbeit weckte in mir den Pioniergeist. Beinahe wöchentlich wurden Informationen zu neuer Hardware oder VR/AR Projekten veröffentlicht. Die Begeisterung, welche AR momentan erfährt treibt die Entwicklung immer weiter voran und selbst der in diesem Projekt verwendete \textit{Oculus Rift}, welcher zu Beginn relativ neu war, kann bereits als veraltete Technologie bezeichnet werden. Doch selbst Systeme wie die erst kürzlich erschienene \textit{castAR} werden in wenigen Jahren belächelt.\\[6pt] 
-Diese Arbeit soll ein erster Schritt in die Welt der VR/AR sein und einen groben Überblick in das Themengebiet geben. Das im Rahmen der Arbeit entwickelte Softwareprojekt läuft stabil und dank \textit{Unity} war es relativ einfach eine gutaussehende Simulation zu erstellen. Erst bei der Veränderung der vorhandenen Dateien zur Implementierung des ''Flugmodus'' musste, um den Code zu verstehen und an der richtigen Stelle zu verändern, programmiertechnisches Wissen angewendet werden. Bei der Erstellung der hochauflösenden Karte musste das System, wie die Webseite eine Karte erstellt, verstanden und anschliessend in einer Java-Applikation umgesetzt werden.\\[6pt]
- In Zukunft sollen weitere Funktionen hinzugefügt werden. So soll es irgendwann möglich sein ein zuvor bestimmtes Gebäude in der Höhe zu verändern und so seinen Einfluss auf das Stadtbild zu beobachten. Ausserdem sollen die wichtigsten Standorte bereits beim Programmstart als Einstiegspunkt genutzt werden können, damit ein Positionswechsel innerhalb der Anwendung nicht nötig wird und eine vereinfachte Steuerung, welche aus lediglich einer Taste zur Aktivierung des ''Flugmodus'' besteht, möglich wird.
+Diese Arbeit soll ein erster Schritt in die Welt der VR/AR sein und einen groben Überblick in das Themengebiet geben. Das im Rahmen der Arbeit entwickelte Softwareprojekt läuft ohne Abstürze und dank \textit{Unity} konnte eine sehr grosse virtuelle Welt erstellt werden, welche auch auf Systemen mit geringerer Leistung flüssig läuft. Bei der Veränderung der Benutzerschnittstelle, wie bei der Implementierung des ''Flugmodus'', sind Programmierkentnisse im Bereich von JavaScript von nöten um den vorhanden Code zu verstehen und an den richtigen Stellen abzuändern. Der wohl schwierigste Teil war die Erstellung der hochauflösenden Karte. Ich wollte ein System entwickeln, welches später ermöglicht, mit wenigen Änderungen, eine Karte eines anderen Stadtquartiers zu erstellen. Da diese Karten jeweils nur als kleiner Ausschnitt auf dem Geoportal der Stadt Basel betrachtet werden konnten, mussten die einzelnen Teilkarten mit einem selbstentwickelten Programm zusammengeführt werden. In einer ersten Version war eine GUI geplant, über die der Kartenausschnitt auf einer Karte der ganzen Stadt Basel gewählt werden konnte und anschliessend eine detailierte Karte zusammengestellt wurde. Da aber keine Relation zwischen ''echten'' Koordinaten (z.B. LV95) und der internen Ablagestruktur gefunden wurde, war dies leider nicht möglich.\\[6pt]
+ In Zukunft sollen dem Pilotprojekt weitere Funktionen hinzugefügt werden. So soll es irgendwann möglich sein ein zuvor bestimmtes Gebäude in der Höhe zu verändern und so seinen Einfluss auf das Stadtbild zu beobachten. Ausserdem sollen die wichtigsten Standorte bereits beim Programmstart als Einstiegspunkt genutzt werden können, damit ein Positionswechsel innerhalb der Anwendung nicht nötig wird und eine vereinfachte Steuerung, welche aus lediglich einer Taste zur Aktivierung des ''Flugmodus'' besteht, möglich wird.
 % Anhang
 %\begin{landscape}\begin{multicols}{2}
 %\appendix
