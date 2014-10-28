@@ -9,6 +9,8 @@ Project("{DF353ADE-5DC1-9C3C-BD82-FEE10EE758CE}") = "TownDemoTexture", "Assembly
 EndProject
 Project("{DF353ADE-5DC1-9C3C-BD82-FEE10EE758CE}") = "TownDemoTexture", "Assembly-UnityScript-firstpass.unityproj", "{8F8D056B-32D5-2B65-23F5-3EE0C8525400}"
 EndProject
+Project("{DF353ADE-5DC1-9C3C-BD82-FEE10EE758CE}") = "TownDemoTexture", "Assembly-UnityScript.unityproj", "{A9E45AAB-F10D-1602-FC9C-FD3332D8CEDD}"
+EndProject
 Project("{DF353ADE-5DC1-9C3C-BD82-FEE10EE758CE}") = "TownDemoTexture", "Assembly-UnityScript-Editor.unityproj", "{E913C446-6269-FD5E-BA48-72CE21C74EC4}"
 EndProject
 Global
@@ -33,6 +35,10 @@ Global
 		{8F8D056B-32D5-2B65-23F5-3EE0C8525400}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F8D056B-32D5-2B65-23F5-3EE0C8525400}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F8D056B-32D5-2B65-23F5-3EE0C8525400}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9E45AAB-F10D-1602-FC9C-FD3332D8CEDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9E45AAB-F10D-1602-FC9C-FD3332D8CEDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9E45AAB-F10D-1602-FC9C-FD3332D8CEDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9E45AAB-F10D-1602-FC9C-FD3332D8CEDD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E913C446-6269-FD5E-BA48-72CE21C74EC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E913C446-6269-FD5E-BA48-72CE21C74EC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E913C446-6269-FD5E-BA48-72CE21C74EC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -41,7 +47,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																																																				GlobalSection(MonoDevelopProperties) = preSolution
+																																																							GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
