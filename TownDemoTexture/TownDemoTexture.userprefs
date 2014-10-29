@@ -1,8 +1,13 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\ownScripts\reactiveText.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\ownScripts\controllMenu.js">
     <Files>
-      <File FileName="Assets\ownScripts\reactiveText.cs" Line="5" Column="2" />
+      <File FileName="Assets\ownScripts\controllMenu.js" Line="50" Column="44" />
+      <File FileName="Assets\ownScripts\quitButton.js" Line="1" Column="1" />
+      <File FileName="Assets\ownScripts\fadePlane.js" Line="12" Column="1" />
+      <File FileName="Assets\ownScripts\moveSettings.js" Line="18" Column="94" />
+      <File FileName="Assets\ownScripts\settingScript.js" Line="6" Column="35" />
+      <File FileName="Assets\ownScripts\moveStart.js" Line="18" Column="94" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

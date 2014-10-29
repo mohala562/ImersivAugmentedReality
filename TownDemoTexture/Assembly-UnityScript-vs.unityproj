@@ -46,7 +46,14 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\ownScripts\controllMenu.js" />
+     <Compile Include="Assets\ownScripts\fadePlane.js" />
+     <Compile Include="Assets\ownScripts\movePlayer.js" />
+     <Compile Include="Assets\ownScripts\moveSettings.js" />
+     <Compile Include="Assets\ownScripts\moveStart.js" />
+     <Compile Include="Assets\ownScripts\quitButton.js" />
      <Compile Include="Assets\ownScripts\scaleObject.js" />
+     <Compile Include="Assets\ownScripts\settingScript.js" />
      <None Include="Assets\Plugins\donotdelete.txt" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
      <None Include="Assets\OVR\OVRImageEffects\OVRLensCorrection_Mesh.shader" />
