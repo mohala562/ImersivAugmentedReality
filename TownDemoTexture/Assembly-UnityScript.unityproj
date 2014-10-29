@@ -48,7 +48,9 @@
   <ItemGroup>
      <Compile Include="Assets\ownScripts\controllMenu.js" />
      <Compile Include="Assets\ownScripts\fadePlane.js" />
+     <Compile Include="Assets\ownScripts\hitPlane.js" />
      <Compile Include="Assets\ownScripts\movePlayer.js" />
+     <Compile Include="Assets\ownScripts\moveSelected.js" />
      <Compile Include="Assets\ownScripts\moveSettings.js" />
      <Compile Include="Assets\ownScripts\moveStart.js" />
      <Compile Include="Assets\ownScripts\quitButton.js" />

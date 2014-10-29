@@ -1,10 +1,10 @@
 ﻿#pragma strict
 
-function Start () {
-
-}
+var guiObjects: GameObject;
+var panel: GameObject;
 
 function Update () {
-		if (Input.GetKeyDown (KeyCode.Escape))
-			Application.Quit ();
+	if (Input.GetKeyDown (KeyCode.Escape)){
+			Application.LoadLevel(0);		
+		}
 }
