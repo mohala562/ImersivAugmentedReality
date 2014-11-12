@@ -2,10 +2,10 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\ownScripts\fadePlane.js">
     <Files>
-      <File FileName="Assets\ownScripts\scaleObject.js" Line="1" Column="1" />
-      <File FileName="Assets\ownScripts\controllMenu.js" Line="76" Column="2" />
+      <File FileName="Assets\ownScripts\fadePlane.js" Line="16" Column="2" />
+      <File FileName="Assets\ownScripts\scaleObject.js" Line="15" Column="20" />
+      <File FileName="Assets\ownScripts\controllMenu.js" Line="1" Column="1" />
       <File FileName="Assets\ownScripts\quitButton.js" Line="1" Column="1" />
-      <File FileName="Assets\ownScripts\fadePlane.js" Line="13" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
