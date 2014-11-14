@@ -1,15 +1,14 @@
-Git Repository zur Bachelorarbeit
-Imersiv Augmented Reality
+#Git Repository zur Bachelorarbeit Imersiv Augmented Reality
 von Maurus Dähler
 
-# Vortrag
+## Vortrag
 reveal.js Abschlussvortrag der Bachelorarbeit
 
-# Arbeit
+## Arbeit
 Latex Sourcecode der Arbeit
 
-# TownDemoTexture
+## TownDemoTexture
 Unity Projektordner der erstellten VR Demo
 
-# MapGrabber
+## MapGrabber
 Javaprogramm zur generierung grosser hochaufgelöster Karten
