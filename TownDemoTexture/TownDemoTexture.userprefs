@@ -1,11 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\ownScripts\fadePlane.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\flyMoveset.js">
     <Files>
-      <File FileName="Assets\ownScripts\fadePlane.js" Line="16" Column="2" />
-      <File FileName="Assets\ownScripts\scaleObject.js" Line="15" Column="20" />
-      <File FileName="Assets\ownScripts\controllMenu.js" Line="1" Column="1" />
-      <File FileName="Assets\ownScripts\quitButton.js" Line="1" Column="1" />
+      <File FileName="Assets\flyMoveset.js" Line="33" Column="4" />
+      <File FileName="Assets\Standard Assets\Character Controllers\Sources\Scripts\CharacterMotor.js" Line="17" Column="37" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
