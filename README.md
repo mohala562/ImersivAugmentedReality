@@ -1,10 +1,14 @@
 # CS102
+
 ### Inhalt
 * Endliche Automaten
 * Markdown
 * TigerJython
 * uvm.
+
+
 ### Übungen
+
 Nicht zugelassen | Zugelassen | ¼-Note
 -------------------|:----------:|-------:
 <50 Punkte | 50-74 Punkte | <75 Punkte
