@@ -1,23 +1,3 @@
-# CS102
-
-### Inhalt
-* Endliche Automaten
-* Markdown
-* TigerJython
-* uvm.
-
-
-### Übungen
-
-Nicht zugelassen | Zugelassen | ¼-Note
--------------------|:----------:|-------:
-<50 Punkte | 50-74 Punkte | <75 Punkte
-
-### Weitere Informationen
-http://informatik.unibas.ch/hs2014/werkzeuge-der-informatik/
-
-
-
 #Git Repository zur Bachelorarbeit Imersiv Augmented Reality
 von Maurus Dähler
 
